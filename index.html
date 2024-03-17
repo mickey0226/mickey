@@ -46,7 +46,38 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-	  
+
+　　<tr onmouseout="friendly_stop()" onmouseover="friendly_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='friendly_image'><img src='toin.png'></div>
+                  <img src='toin.png'>
+                </div>
+                <script type="text/javascript">
+                  function friendly_start() {
+                    document.getElementById('friendly_image').style.opacity = "1";
+                  }
+
+                  function friendly_stop() {
+                    document.getElementById('friendly_image').style.opacity = "0";
+                  }
+                  friendly_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://drive.google.com/file/d/1w_0djhL0QgC_fbehnJ0c-J23_kW_420p/view?usp=sharing">
+                  <span class="papertitle">A Hardware-Friendly Bilateral Solver for Real-Time Virtual Reality Video</span>
+                </a>
+                <br>
+                <a href="https://homes.cs.washington.edu/~amrita/">Amrita Mazumdar</a>, <a href="http://homes.cs.washington.edu/~armin/">Armin Alaghi</a>, <strong>Jonathan T. Barron</strong>, <a href="https://www.cs.unc.edu/~gallup/">David Gallup</a>, <a href="https://homes.cs.washington.edu/~luisceze/">Luis Ceze</a>, <a href="https://homes.cs.washington.edu/~oskin/">Mark Oskin</a>, <a href="http://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a>
+                <br>
+                <em>High-Performance Graphics (HPG)</em>, 2017
+                <br>
+                <a href="https://sampa.cs.washington.edu/projects/vr-hw.html">project page</a>
+                <p></p>
+                <p>A reformulation of the bilateral solver can be implemented efficiently on GPUs and FPGAs.</p>
+              </td>
+            </tr>
 	  </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
